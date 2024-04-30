@@ -1,1 +1,41 @@
-/* Start coding here */
+*{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.head{
+  background-color: teal;
+  flex: 1;
+  text-align: center;
+  align-content: center;
+  border: 2px solid white;
+}
+.main{
+  display: flex;
+  flex-direction: c;
+  flex: 15;
+  
+}
+.nav,.content,.ad{
+  background-color: orange;
+  flex: 1;
+  text-align: center;
+  align-content: center;
+  border: 2px solid white;
+}
+.foot{
+  background-color: khaki;
+  flex: 1;
+  text-align: center;
+  align-content: center;
+  border: 2px solid white;
+}
+.page{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.content.content{
+  flex: 2;
+}
