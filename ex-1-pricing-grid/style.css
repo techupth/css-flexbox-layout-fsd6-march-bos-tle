@@ -14,6 +14,7 @@ html {
     hsl(220, 80%, 70%)
   );
   font-family: serif;
+}
 
 .card-container {
   display: flex;
@@ -63,7 +64,7 @@ html {
 }
 
 .icon {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 li {
