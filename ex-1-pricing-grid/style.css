@@ -1,1 +1,80 @@
 /* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    90deg,
+    hsl(300, 80%, 70%),
+    hsl(220, 80%, 70%)
+  );
+  font-family: serif;
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10vh auto;
+  gap: 50px;
+}
+.card-box {
+  background-color: hsla(0, 50%, 100%, 0.5);
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.card-title {
+  padding: 20px;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px gray;
+}
+
+.card-detail,
+.card-list {
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+.card-price {
+  font-size: 3rem;
+  padding: 20px 0;
+  font-family: "Times New Roman", serif;
+}
+
+.card-button {
+  width: 100%;
+  padding: 10px 0;
+  background-color: yellow;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.icon {
+    font-size: 1.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+li:first-child,
+li + li {
+  border-bottom: 1px solid gray;
+}
+
+li:last-child {
+  border: none;
+}
