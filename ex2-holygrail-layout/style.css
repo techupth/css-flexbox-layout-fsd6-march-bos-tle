@@ -1,1 +1,46 @@
-/* Start coding here */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background-color: cadetblue;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+footer{
+    background-color: khaki;
+    text-align: center;
+    align-content: center;
+    height: 10vh;
+}
+.content {
+    display: flex;
+    height: 84vh;
+    justify-content: center;
+    gap: 2px;
+    margin: 1px;
+}
+.leftside{
+    flex:1;
+    background-color: coral;
+    text-align: center;
+    align-content: center;
+}
+.maincenter{
+    flex:2;
+    background-color: chocolate;
+    text-align: center;
+    align-content: center;
+}
+.rightside{
+    flex:1;
+    background-color: coral;
+    text-align: center;
+    align-content: center;
+}
+
+
