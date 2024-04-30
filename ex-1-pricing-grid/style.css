@@ -1,1 +1,48 @@
-/* Start coding here */
+html {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    50deg,
+    hsl(0, 100%, 70%),
+    hsl(240, 100%, 70%)
+  );
+}
+.content {
+  background-color: hsla(0, 14%, 93%, 0.612);
+  width: 200px;
+  height: fit-content;
+  padding: 10px;
+  margin: 1%;
+  text-align: center;
+  font-size: 10px;
+}
+.content1 {
+  background-color: hsla(0, 14%, 93%, 0.612);
+  width: 200px;
+  height: fit-content;
+  padding: 10px;
+  margin: 1%;
+  text-align: center;
+  font-size: 10px;
+}
+.button {
+  background-color: yellow;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: aliceblue;
+}
+* {
+  box-sizing: border-box;
+}
